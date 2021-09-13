@@ -16,7 +16,7 @@ BUILD_TOP := $(shell pwd)
 ifneq ($(filter x86%,$(TARGET_ARCH)),)
 LOCAL_PATH := $(call my-dir)
 
-RELEASE_OS_TITLE := BlissOS-$(VERSION)
+RELEASE_OS_TITLE := KangOS-$(KANGOS_BUILD_ID)
 
 include $(CLEAR_VARS)
 LOCAL_IS_HOST_MODULE := true
